@@ -214,7 +214,7 @@ public class TicTacToe {
         if(diagSum == 3 || diagSum == -3) {
             for(int i = 1; i < 4; i++){
                 int diag = i * 2;
-                if(emptyTile(diag)) win.add(diag);
+                win.add(diag);
             }
         }
         return win;
